@@ -1,0 +1,138 @@
+<view class="indexContainer">
+  <!-- 轮播图 -->
+  <swiper class="bannerSwiper" indicator-dots indicator-active-color>
+    <swiper-item class="swiperItem">
+      <image class="swiperImg" src="../../static/images/mylove.jpg"></image>
+    </swiper-item>
+    <swiper-item class="swiperItem">
+      <image class="swiperImg" src="../../static/images/mylove.jpg"></image>
+    </swiper-item>
+    <swiper-item class="swiperItem">
+      <image class="swiperImg" src="../../static/images/mylove.jpg"></image>
+    </swiper-item>
+
+  </swiper>
+  <!-- nav导航 -->
+  <view class="navList">
+    <view class="navItem">
+      <text class="iconfont icon-meirituijian"></text>
+      <text class="navText">每日推荐</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-gedan1"></text>
+      <text class="navText">歌单</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-paihangbang"></text>
+      <text class="navText">排行榜</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-diantai"></text>
+      <text class="navText">电台</text>
+    </view>
+    <view class="navItem">
+      <text class="iconfont icon-zhiboguankanliangbofangsheyingshexiangjixianxing"></text>
+      <text class="navText">直播</text>
+    </view>
+  </view>
+  <!-- 推荐歌曲 -->
+  <view class="recommend">
+    <view class="header">
+      <view class="title">推荐歌曲</view>
+      <view class="headerText">
+        <text class="textLeft">为你精心推荐</text>
+        <text class="textRight">查看更多</text>
+      </view>
+
+    </view>
+    <!-- scroll-x 横向滚动 -->
+    <!-- enable-flex 内部可以写scroll布局 -->
+    <scroll-view scroll-x enable-flex class="scroll">
+      <view class="scrollItem">
+        <image class="itemImg" src="../../static/images/123.jpg"></image>
+        <text class="itemText">的发生东方大厦的发生东方大厦的发生东方大厦的发生东方大厦的发生东方大厦</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- 排行榜 -->
+  <view class="rank">
+    <view class="header">
+      <view class="title">排行榜</view>
+      <view class="headerText">
+        <text class="textLeft">热歌风向标</text>
+        <text class="textRight">查看更多</text>
+      </view>
+
+    </view>
+
+    <swiper class="rankSwiper" previous-margin="20" next-margin="20">
+      <swiper-item class="swiperItem">
+        <view class="main">
+          <view class="mainTitle">热歌榜</view>
+          <view class="songList">
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item class="swiperItem">
+        <view class="main">
+          <view class="mainTitle">热歌榜</view>
+          <view class="songList">
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item class="swiperItem">
+        <view class="main">
+          <view class="mainTitle">热歌榜</view>
+          <view class="songList">
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+            <view class="song">
+              <image src="../../static/images/123.jpg" class="songImg"></image>
+              <text class="count">1</text>
+              <text class="songName">歌名</text>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
